@@ -13,7 +13,9 @@
 <script>
   const urlParams = new URLSearchParams(window.location.search);
   const urlred = urlParams.get("urlred");
+  console.log(urlred);
   if (urlred) {
+    log(urlred);
     window.location.replace(urlred);
   }
 </script>
